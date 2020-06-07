@@ -1,20 +1,14 @@
-Explicar Conceitos
+Criação de Aplicativo com React WEB e React Native Mobile eColeta com API Servidor em NodeJS
+
+Conceitos
 Rotas e Recursos
 Métodos de Requisições HTTP
 Tipos de Parâmetros
-request.body
-request.params
-request.query.filtro
+
 Utilizar o Insominia/PostMan
 Qual Banco de Dados será Utilizado no Projeto
-SQL:
-Postgres
-MySQL
-SQL Server
 SQLite -
  Arquivo Físico database.sqlite
-NoSQL:
-MongoDB, CouchDB
 
 Knex.JS
 Biblioteca/Interface com Linguagem Unificada para todos os Bancos de Dados
@@ -67,26 +61,18 @@ Recursos Avançados
 UpLoad de Imagens
 
  Configurar BackEnd
-  https://unsplash.com/s/photos/market
-  https://github.com/expressjs/multer
   npm install multer
   npm install @types/multer -D
    Serialização
    API Transform
 
  Criar DropZone no React
-  https://react-dropzone.js.org/
-  https://github.com/react-dropzone/react-dropzone
   npm install --save react-dropzone
-  yarn add react-dropzone
 
 Validar Entrada de Dados
  FrontEnd
-  https://github.com/jquense/yup
+  Yup
  BackEnd
-  https://github.com/arb/celebrate
-  https://github.com/hapijs/joi
-
   npm install celebrate
   npm install @types/hapi__joi -D
 
@@ -112,16 +98,10 @@ Criar Projeto com Expo
 Executar Projeto
  Se não rodar tentar instalar o expo:
  npm start
- https://localhost:19000
- exp://192.168.1.66:19000
- LAN (Selected)
+
  Mesma LAN entre o Mobile e o PC (API/DEV)
  Baixar App Expo no Google Play Store(Android)/Apple App Store(iOS)
  QRCode (Abrir no App Expo Client)
-Configurar Emulador (Como Necessário)
- YouTube (Emulador Expo)
- Emulador Expo Rockeseat
- Emulando React Native no iOS/Android com Expo | Code/Drops #03
 
 Diferenças do React Native para ReactJS
  Elementos
@@ -134,8 +114,3 @@ Buscar Items da API
 Buscar Pontos da API
 Busca Detalhe do Ponto da API
 Busca de US e Cidade
-
-Sempre que uma chamada para uma função receber parâmetros
-Necessário transforma a chamada da função em uma Arrow Fuction
-Exemplo:
- onPress={() => handleNavigateToDetail(point.id)}
